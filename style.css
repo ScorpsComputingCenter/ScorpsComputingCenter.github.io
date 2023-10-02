@@ -1,0 +1,78 @@
+*{
+    /* general page formating */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;  
+    background-color: rgb(41, 41, 41);
+}
+p{
+    /* text paragraph formatting */
+    color: #ffffff;
+    font-size: 25px;
+    padding: 50px 10%;
+    text-align: center;
+    top:auto;
+}
+h1{
+    /* font and position setup for page title */
+   width:100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 300;
+    position: absolute;
+    z-index: 4;
+    background-color: transparent;
+    color:aliceblue;
+    font-size: 5vw;
+    margin-right:auto;
+    margin-left:auto;
+    left:0;
+    right:0;
+    top:450px; 
+}
+img{
+    /* setup auto scale for image */
+    object-fit: cover;
+    max-height:100vh;
+    top:0px;
+    height:auto;
+    width:100%;
+} 
+nav{
+    /* setup position and behavior for navbar */
+    z-index: 5;
+    width: 100%;
+    text-align: left;
+    position:sticky;
+    top: 0px;
+}
+.logo{
+    /* setup position for logo */
+    background: transparent;
+    width: 50px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+nav ul{
+    /* describes look of list containing links */
+    background: #000;
+    width: 100%;
+}
+nav ul li{ 
+    /* describes look and behavior of each link */
+    background-color: transparent;
+    display: inline-block;
+    padding: 0 100px;
+    margin: 25px 30px;
+    color: #ffffff;
+    cursor:pointer;
+
+}
+a{
+    /* describes look of actual clickable link*/
+    background-color: transparent;
+}
