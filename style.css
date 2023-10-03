@@ -33,6 +33,11 @@ h1{
     right:0;
     top:450px; 
 }
+@media(max-width:1000px){
+    h1{
+        top:33vh;
+    }
+}
 img{
     /* setup auto scale for image */
     object-fit: cover;
@@ -65,9 +70,10 @@ nav ul{
 nav ul li{ 
     /* describes look and behavior of each link */
     background-color: transparent;
+    text-size-adjust:auto ;
     display: inline-block;
-    padding: 0 100px;
-    margin: 25px 30px;
+    padding: 0 5.2vw;
+    margin: 2vh 2vw;
     color: #ffffff;
     cursor:pointer;
 
