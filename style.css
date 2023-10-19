@@ -6,7 +6,7 @@
     font-family: 'poppins',sans-serif;  
     background-color: rgb(41, 41, 41);
 }
-p{
+#mainpagetext{
     /* text paragraph formatting */
     color: #ffffff;
     font-size: 25px;
@@ -14,7 +14,7 @@ p{
     text-align: center;
     top:auto;
 }
-h1{
+#bigname{
     /* font and position setup for page title */
    width:100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -34,7 +34,7 @@ h1{
     top:450px; 
 }
 @media(max-width:1000px){
-    h1{
+    #bigname{
         top:33vh;
     }
 }
