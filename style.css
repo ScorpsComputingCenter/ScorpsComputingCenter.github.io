@@ -1,14 +1,22 @@
+/*Official Background color Hexidecimal #262524
+  Ofiddical Text color rgb(236, 228, 213) or Hexidecima l#ECE4D5\
+  fuck shcoool
+*/
+
+
+
+
 *{
     /* general page formating */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins',sans-serif;  
-    background-color: rgb(41, 41, 41);
+    background-color: #262524;
 }
 #mainpagetext{
     /* text paragraph formatting */
-    color: #ffffff;
+    color: #ECE4D5;
     font-size: 25px;
     padding: 50px 10%;
     text-align: center;
@@ -16,7 +24,7 @@
 }
 #bigname{
     /* font and position setup for page title */
-   width:100%;
+    width:100%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: center;
     text-align: center;
@@ -26,7 +34,7 @@
     z-index: 4;
     background-color: transparent;
     color:rgb(236, 228, 213);
-    font-size: 5vw;
+    font-size: 6vw;
     margin-right:auto;
     margin-left:auto;
     left:0;
@@ -37,6 +45,7 @@
     #bigname{
         top:33vh;
     }
+    
 }
 img{
     /* setup auto scale for image */
@@ -70,7 +79,7 @@ nav ul{
 nav ul li{ 
     /* describes look and behavior of each link */
     background-color: transparent;
-    text-size-adjust:auto ;
+    text-size-adjust: auto;
     display: inline-block;
     padding: 0 5.2vw;
     margin: 2vh 2vw;
@@ -81,4 +90,40 @@ nav ul li{
 a{
     /* describes look of actual clickable link*/
     background-color: transparent;
+}
+
+#ZaBoard{
+    color: #ECE4D5;
+    text-align: center;
+    font-size: 10vw;
+    font-weight: 15;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#projectsTitle{
+    
+    color: #ECE4D5;
+    font-size: 10vw;
+    font-weight: 15;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#projectSubTitle{
+    color: #ECE4D5;
+    text-align:  center;
+
+
+
+
+}
+
+#zaza{
+    position: fixed;
+    width: 100vw;
+    height:100vh;
+    background-image: url(images/MEGAMIND.JPG);
+    background-size: 200px 50px;
+    background-repeat: repeat;
 }
